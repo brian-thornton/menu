@@ -6,27 +6,32 @@ export type Item = {
 
 export const demos: { name: string; items: Item[] }[] = [
   {
-    name: 'Layouts',
+    name: 'Beer / Cider / Selzer',
     items: [
       {
-        name: 'Nested Layouts',
-        slug: 'layouts',
-        description: 'Create UI that is shared across routes',
+        name: 'IPAs',
+        slug: 'ipas',
+        description: 'Invented by the British to survive the long voyage to India!',
       },
       {
-        name: 'Grouped Layouts',
-        slug: 'route-groups',
-        description: 'Organize routes without affecting URL paths',
+        name: 'English / Irish Ales',
+        slug: 'ales',
+        description: 'Ales and Stouts are a must in any English pub!',
       },
       {
-        name: 'Parallel Routes',
-        slug: 'parallel-routes',
-        description: 'Render multiple pages in the same layout',
+        name: 'Lagers',
+        slug: 'lagers',
+        description: 'Lagers are the most popular beer in the world!',
+      },
+      {
+        name: 'Ciders',
+        slug: 'ciders',
+        description: 'Forget applesauce, this is the best use for apples!',
       },
     ],
   },
   {
-    name: 'File Conventions',
+    name: 'Featured Burbons / Whiskeys',
     items: [
       {
         name: 'Loading',
@@ -47,7 +52,7 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: 'Data Fetching',
+    name: 'Wines',
     items: [
       {
         name: 'Streaming with Suspense',
@@ -69,37 +74,6 @@ export const demos: { name: string; items: Item[] }[] = [
         name: 'Incremental Static Regeneration',
         slug: 'isr',
         description: 'Get the best of both worlds between static & dynamic',
-      },
-    ],
-  },
-  {
-    name: 'Components',
-    items: [
-      {
-        name: 'Client Context',
-        slug: 'context',
-        description:
-          'Pass context between Client Components that cross Server/Client Component boundary',
-      },
-    ],
-  },
-  {
-    name: 'Misc',
-    items: [
-      {
-        name: 'Client Component Hooks',
-        slug: 'hooks',
-        description: 'Preview the routing hooks available in Client Components',
-      },
-      {
-        name: 'CSS and CSS-in-JS',
-        slug: 'styling',
-        description: 'Preview the supported styling solutions',
-      },
-      {
-        name: 'Code Snippets',
-        slug: 'snippets',
-        description: 'A collection of useful App Router code snippets',
       },
     ],
   },

@@ -56,7 +56,7 @@ export default async function Layout({
               </div>
 
               <ContextClickCounter />
-              <div>{children}</div>
+
             </div>
           </Boundary>
         </CounterProvider>
