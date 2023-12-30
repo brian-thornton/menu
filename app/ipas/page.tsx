@@ -36,7 +36,7 @@ export default function Page() {
       <ul>
         {beers.map((beer) => {
           return (
-            <li key={beer.name} style={{marginBottom: '10px'}}>
+            <li key={beer.name} style={{marginBottom: '30px'}}>
               <strong>{beer.name}</strong> ({beer.brewery}) {beer.abv}
               <br />
               {beer.description}

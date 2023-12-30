@@ -34,47 +34,42 @@ export const demos: { name: string; items: Item[] }[] = [
     name: 'Featured Burbons / Whiskeys',
     items: [
       {
-        name: 'Loading',
-        slug: 'loading',
+        name: 'Burbons',
+        slug: 'burbons',
         description:
-          'Create meaningful Loading UI for specific parts of an app',
+          'Bourbon is a type of American whiskey that is a barrel-aged distilled liquor made mainly from corn.',
       },
-      {
-        name: 'Error',
-        slug: 'error-handling',
-        description: 'Create Error UI for specific parts of an app',
-      },
-      {
-        name: 'Not Found',
-        slug: 'not-found',
-        description: 'Create Not Found UI for specific parts of an app',
-      },
+      // {
+      //   name: 'Rye',
+      //   slug: 'rye',
+      //   description: 'Rye whiskey is a kind of whiskey most associated with the United States but which usually takes a back seat to the more widespread Bourbon.',
+      // },
+      // {
+      //   name: 'Irish Whiskey',
+      //   slug: 'irish',
+      //   description: 'Irish whiskey is whiskey made on the island of Ireland.',
+      // },
+      // {
+      //   name: 'Scotch',
+      //   slug: 'scotch',
+      //   description: 'Scotch whisky is malt whisky or grain whisky, made in Scotland.',
+      // },
     ],
   },
-  {
-    name: 'Wines',
-    items: [
-      {
-        name: 'Streaming with Suspense',
-        slug: 'streaming',
-        description:
-          'Streaming data fetching from the server with React Suspense',
-      },
-      {
-        name: 'Static Data',
-        slug: 'ssg',
-        description: 'Generate static pages',
-      },
-      {
-        name: 'Dynamic Data',
-        slug: 'ssr',
-        description: 'Server-render pages',
-      },
-      {
-        name: 'Incremental Static Regeneration',
-        slug: 'isr',
-        description: 'Get the best of both worlds between static & dynamic',
-      },
-    ],
-  },
+  // {
+  //   name: 'Wines',
+  //   items: [
+  //     {
+  //       name: 'White',
+  //       slug: 'white',
+  //       description:
+  //         'Light and refreshing, white wines are a great choice for any season.',
+  //     },
+  //     {
+  //       name: 'Reds',
+  //       slug: 'reds',
+  //       description: 'Red wines are a great choice for any season.',
+  //     }
+  //   ],
+  // },
 ];
