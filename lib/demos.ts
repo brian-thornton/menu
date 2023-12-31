@@ -24,7 +24,7 @@ export const demos: { name: string; items: Item[] }[] = [
         description: 'Lagers are the most popular beer in the world!',
       },
       {
-        name: 'Ciders',
+        name: 'Ciders & Seltzer',
         slug: 'ciders',
         description: 'Forget applesauce, this is the best use for apples!',
       },
