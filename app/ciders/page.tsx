@@ -3,7 +3,7 @@ import { ciders as beers } from '#/app/data/beer';
 export default function Page() {
   return (
     <div className="prose prose-sm prose-invert max-w-none">
-      <h1 className="text-xl font-bold">Ciders</h1>
+      <h1 className="text-xl font-bold">Ciders & Seltzer</h1>
       <ul>
         {beers.map((beer) => {
           return (

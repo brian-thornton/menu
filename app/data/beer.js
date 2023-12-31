@@ -7,18 +7,26 @@ const ipas = [
     description: 'A classic American IPA brewed with a blend of American hops. This beer is golden in color with a medium body and a crisp finish. The hops add a citrusy flavor and aroma.',
   },
   {
+    name: 'Freshies',
+    brewery: 'Tone Wood Brewing Company',
+    abv: '5.0%',
+    url: 'https://www.tonewoodbrewing.com/',
+    description: 'A classic American IPA brewed with a blend of American hops. This beer is golden in color with a medium body and a crisp finish. The hops add a citrusy flavor and aroma.',
+  },
+  {
     name: 'Dogfish Head 60 Minute IPA',
     brewery: 'Dogfish Head Craft Brewery',
     abv: '6.0%',
     url: 'https://www.dogfish.com/',
     description: 'Our flagship beer. A session India Pale Ale brewed with Warrior, Amarillo & ’Mystery Hop X.’ A powerful East Coast I.P.A. with a lot of citrusy hop character. THE session beer for beer geeks like us!',
   },
+
   {
-    name: 'Frost',
+    name: 'Winter Chill Factor',
     brewery: 'New Trail Brewing Company',
-    abv: '6.0%',
+    abv: '7.0%',
     url: 'https://newtrailbrewing.com/',
-    description: 'A hazy IPA brewed with oats and wheat. Hopped with Citra, Mosaic, and Simcoe.',
+    description: 'A Hazy IPA brewed with a blend of American hops. This beer is golden in color with a medium body and a crisp finish. The hops add a citrusy flavor and aroma.',
   },
   {
     name: 'Broken Heels',
@@ -72,6 +80,24 @@ const ciders = [
     brewery: 'Strongbow',
     abv: '5.0%',
     description: 'Strongbow Gold Apple has a wonderful transparent gold color, a rich and complex aromatic array dominated by several varieties of apple and a refreshing texture with a true balance between first acidity, sharpness and sourness; and then sweetness and softness.',
+  },
+  {
+    name: 'American Apple Imperial Cider',
+    brewery: 'Blake\'s Hard Cider Company',
+    abv: '8.0%',
+    description: 'Blake\’s American Apple is a 100% all-natural hard cider. With a medium body, it is golden in color with a slightly fruity aroma. This cider finishes clean and dry with a hint of tartness to quench the thirst of any spirited adventurer.',
+  },
+  {
+    name: '1911 Original Hard Cider',
+    brewery: 'Beak & Skiff Apple Orchards',
+    abv: '5.5%',
+    description: '1911 Original Hard Cider is blended to perfection in Upstate New York. You\’ll enjoy the aroma of the orchard and a perfectly balanced, crisp finish.',
+  },
+  {
+    name: 'Ranch Water',
+    brewery: 'Ranch Rider Spirits Co.',
+    abv: '5.0%',
+    description: 'Ranch Water is a hard seltzer made with 100% organic agave, natural lime juice, and sparkling water. It\’s the perfect refreshing cocktail to enjoy anytime, anywhere.',
   },
 ];
 
