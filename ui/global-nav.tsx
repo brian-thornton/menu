@@ -7,7 +7,6 @@ import { useSelectedLayoutSegment } from 'next/navigation';
 import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid';
 import clsx from 'clsx';
 import { useState } from 'react';
-import Byline from './byline';
 
 export function GlobalNav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +25,7 @@ export function GlobalNav() {
           </div>
 
           <h3 className="font-semibold tracking-wide text-gray-400 group-hover:text-gray-50">
-            Bar Tron New Year's Eve
+            New Year's Eve Drink Menu
           </h3>
         </Link>
       </div>
