@@ -31,11 +31,11 @@ export const demos: { name: string; items: Item[] }[] = [
     ],
   },
   {
-    name: 'Featured Burbons / Whiskeys',
+    name: 'Featured Bourbons / Whiskeys',
     items: [
       {
-        name: 'Burbons',
-        slug: 'burbons',
+        name: 'Bourbons',
+        slug: 'Bourbons',
         description:
           'Bourbon is a type of American whiskey that is a barrel-aged distilled liquor made mainly from corn.',
       },
