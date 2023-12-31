@@ -35,7 +35,7 @@ export const demos: { name: string; items: Item[] }[] = [
     items: [
       {
         name: 'Bourbons',
-        slug: 'Bourbons',
+        slug: 'bourbons',
         description:
           'Bourbon is a type of American whiskey that is a barrel-aged distilled liquor made mainly from corn.',
       },
