@@ -1,16 +1,6 @@
-import { ExternalLink } from '#/ui/external-link';
+import { ciders as beers } from '#/app/data/beer';
 
 export default function Page() {
-
-  const beers = [
-    {
-      name: 'Strongbow Gold Apple',
-      brewery: 'Strongbow',
-      abv: '5.0%',
-      description: 'Strongbow Gold Apple has a wonderful transparent gold color, a rich and complex aromatic array dominated by several varieties of apple and a refreshing texture with a true balance between first acidity, sharpness and sourness; and then sweetness and softness.',
-    },
-  ]
-
   return (
     <div className="prose prose-sm prose-invert max-w-none">
       <h1 className="text-xl font-bold">Ciders</h1>
