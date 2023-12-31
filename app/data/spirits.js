@@ -1,4 +1,4 @@
-const burbons = [
+const bourbons = [
   {
     name: 'Knob Creek 9',
     brewery: 'Beam Suntory',
@@ -86,5 +86,5 @@ const burbons = [
 ];
 
 module.exports = {
-  burbons,
+  bourbons,
 };
