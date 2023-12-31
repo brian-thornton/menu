@@ -1,12 +1,5 @@
 const burbons = [
   {
-    name: 'Berkshire',
-    brewery: 'Berkshire Mountain Distillers',
-    proof: '86',
-    url: 'https://berkshiremountaindistillers.com/',
-    description: '',
-  },
-  {
     name: 'Knob Creek 9',
     brewery: 'Beam Suntory',
     proof: '100',
@@ -82,6 +75,13 @@ const burbons = [
     proof: '95',
     url: 'https://americasfreedomdistillery.com/',
     description: 'Horse Soldier Bourbon is a brand of bourbon whiskey produced by American Freedom Distillery in St. Petersburg, Florida. The company was founded in 2015 by a group of former Green Berets.',
+  },
+  {
+    name: 'Berkshire',
+    brewery: 'Berkshire Mountain Distillers',
+    proof: '86',
+    url: 'https://berkshiremountaindistillers.com/',
+    description: '',
   },
 ];
 
